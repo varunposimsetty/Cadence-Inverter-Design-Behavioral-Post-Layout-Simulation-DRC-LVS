@@ -1,2 +1,13 @@
-# Cadence-Inverter-Design-Behavioral-Post-Layout-Simulation-DRC-LVS
-This repository showcases an optimized inverter design process in Cadence Virtuoso. It includes behavioral simulations, post-layout simulations, layout verification with DRC/LVS, and detailed documentation for replication. 
+# Cadence Inverter Design and Simulation
+
+## Overview
+
+This repository contains the design files, simulations, and documentation for a CMOS inverter implemented in Cadence Virtuoso. The project includes:
+
+Inverter schematic and layout
+
+Behavioral and post-layout simulations
+
+DRC and LVS verification
+
+A test bench with a single inverter driving four inverters
