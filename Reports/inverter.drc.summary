@@ -1,0 +1,901 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Tue Jan  9 10:53:03 2024
+Calibre Version:           v2013.3_19.14    Thu Aug 15 13:51:23 PDT 2013
+Rule File Pathname:        /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title:           This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Layout System:             GDS
+Layout Path(s):            Lab_3_inverter.calibre.db
+Layout Primary Cell:       Lab_3_inverter
+Current Directory:         /home1/msc18y23/CSM018IC_rev14
+User Name:                 msc18y23
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   4096
+DRC Results Database:      Lab_3_inverter.drc.results (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       Lab_3_inverter.drc.summary (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+Cell name parameter RGO_2009Q4V2ICINT* for EXTENT CELL operation not located.
+Cell name parameter OSC_BI_050_33V for EXTENT CELL operation not located.
+Cell name parameter PWC_VD_ANA_18V for EXTENT CELL operation not located.
+Cell name parameter PWC_VD_PDO_33V for EXTENT CELL operation not located.
+Cell name parameter PWC_VD_RCD_18V for EXTENT CELL operation not located.
+Cell name parameter PWC_VD_RDO_33V for EXTENT CELL operation not located.
+Cell name parameter PWC_VS_ANA_18V for EXTENT CELL operation not located.
+Cell name parameter PWC_VS_RCD_18V for EXTENT CELL operation not located.
+Cell name parameter PWC_VS_RDO_33V for EXTENT CELL operation not located.
+Cell name parameter STC_BI_004_5T_NC for EXTENT CELL operation not located.
+Cell name parameter STC_BI_006_5T_NC for EXTENT CELL operation not located.
+Cell name parameter STC_BI_012_5T_NC for EXTENT CELL operation not located.
+Cell name parameter STC_IN_001_5T_NC for EXTENT CELL operation not located.
+Cell name parameter STC_IN_001_5T_SC for EXTENT CELL operation not located.
+Cell name parameter STC_OU_006_33V_T for EXTENT CELL operation not located.
+Cell name parameter sp_sram_hd_* for EXTENT CELL operation not located.
+Cell name parameter *_CORE_ROW_*A for EXTENT CELL operation not located.
+Cell name parameter *_CORE_ROW_*B for EXTENT CELL operation not located.
+Cell name parameter CP1_PWRSWII_M* for EXTENT CELL operation not located.
+Cell name parameter EO0*KA180CG02 for EXTENT CELL operation not located.
+Cell name parameter EO0*KA180CG02 for EXTENT CELL operation not located.
+Cell name parameter ulp_gf180ic33_*_cm* for EXTENT CELL operation not located.
+Cell name parameter slp_gf180ic33_*_cm* for EXTENT CELL operation not located.
+Cell name parameter ips_gf180ic33_* for EXTENT CELL operation not located.
+Cell name parameter *bit_col for EXTENT CELL operation not located.
+Cell name parameter *BIT_COL for EXTENT CELL operation not located.
+Cell name parameter *bit_mux_0 for EXTENT CELL operation not located.
+Cell name parameter *BIT_MUX_0 for EXTENT CELL operation not located.
+Cell name parameter *bit_mux_1 for EXTENT CELL operation not located.
+Cell name parameter *BIT_MUX_1 for EXTENT CELL operation not located.
+Cell name parameter *ccg for EXTENT CELL operation not located.
+Cell name parameter *CCG for EXTENT CELL operation not located.
+Cell name parameter *ccp for EXTENT CELL operation not located.
+Cell name parameter *CCP for EXTENT CELL operation not located.
+Cell name parameter *ccmwg for EXTENT CELL operation not located.
+Cell name parameter *CCMWG for EXTENT CELL operation not located.
+Cell name parameter *ccmwp for EXTENT CELL operation not located.
+Cell name parameter *CCMWP for EXTENT CELL operation not located.
+Cell name parameter *ccmbb for EXTENT CELL operation not located.
+Cell name parameter *CCMBB for EXTENT CELL operation not located.
+Cell name parameter *ccmbt for EXTENT CELL operation not located.
+Cell name parameter *CCMBT for EXTENT CELL operation not located.
+Cell name parameter *ccpdbb for EXTENT CELL operation not located.
+Cell name parameter *CCPDBB for EXTENT CELL operation not located.
+Cell name parameter *ccpdb for EXTENT CELL operation not located.
+Cell name parameter *CCPDB for EXTENT CELL operation not located.
+Cell name parameter *ccpdt for EXTENT CELL operation not located.
+Cell name parameter *CCPDT for EXTENT CELL operation not located.
+Cell name parameter *flmwp for EXTENT CELL operation not located.
+Cell name parameter *FLMWP for EXTENT CELL operation not located.
+Cell name parameter *left_cap for EXTENT CELL operation not located.
+Cell name parameter *LEFT_CAP for EXTENT CELL operation not located.
+Cell name parameter *model_row_1 for EXTENT CELL operation not located.
+Cell name parameter *MODEL_ROW_1 for EXTENT CELL operation not located.
+Cell name parameter *right_cap for EXTENT CELL operation not located.
+Cell name parameter *RIGHT_CAP for EXTENT CELL operation not located.
+Cell name parameter *swwas0wwwdxigouy for EXTENT CELL operation not located.
+Cell name parameter *SWWAS0WWWDXIGOUY for EXTENT CELL operation not located.
+Cell name parameter *cc for EXTENT CELL operation not located.
+Cell name parameter *CC for EXTENT CELL operation not located.
+Cell name parameter *ccmbl for EXTENT CELL operation not located.
+Cell name parameter *CCMBL for EXTENT CELL operation not located.
+Cell name parameter *ccmw for EXTENT CELL operation not located.
+Cell name parameter *CCMW for EXTENT CELL operation not located.
+Cell name parameter *fc1t for EXTENT CELL operation not located.
+Cell name parameter *FC1T for EXTENT CELL operation not located.
+Cell name parameter *fc2t for EXTENT CELL operation not located.
+Cell name parameter *FC2T for EXTENT CELL operation not located.
+Cell name parameter *fc4t for EXTENT CELL operation not located.
+Cell name parameter *FC4T for EXTENT CELL operation not located.
+Cell name parameter *fcr for EXTENT CELL operation not located.
+Cell name parameter *FCR for EXTENT CELL operation not located.
+Cell name parameter *fcur1 for EXTENT CELL operation not located.
+Cell name parameter *FCUR1 for EXTENT CELL operation not located.
+Cell name parameter *fcur24 for EXTENT CELL operation not located.
+Cell name parameter *FCUR24 for EXTENT CELL operation not located.
+Cell name parameter *flcc for EXTENT CELL operation not located.
+Cell name parameter *FLCC for EXTENT CELL operation not located.
+Cell name parameter *flccmblst for EXTENT CELL operation not located.
+Cell name parameter *FLCCMBLST for EXTENT CELL operation not located.
+Cell name parameter *flccmw for EXTENT CELL operation not located.
+Cell name parameter *FLCCMW for EXTENT CELL operation not located.
+Cell name parameter *flccmwst1 for EXTENT CELL operation not located.
+Cell name parameter *FLCCMWST1 for EXTENT CELL operation not located.
+Cell name parameter *flccmwst24 for EXTENT CELL operation not located.
+Cell name parameter *FLCCMWST24 for EXTENT CELL operation not located.
+Cell name parameter *flccst for EXTENT CELL operation not located.
+Cell name parameter *FLCCST for EXTENT CELL operation not located.
+Cell name parameter *fltcc for EXTENT CELL operation not located.
+Cell name parameter *FLTCC for EXTENT CELL operation not located.
+Cell name parameter *fltccmbl for EXTENT CELL operation not located.
+Cell name parameter *FLTCCMBL for EXTENT CELL operation not located.
+Cell name parameter *fltccst for EXTENT CELL operation not located.
+Cell name parameter *FLTCCST for EXTENT CELL operation not located.
+Cell name parameter *fltcr for EXTENT CELL operation not located.
+Cell name parameter *FLTCR for EXTENT CELL operation not located.
+Cell name parameter *fltwdvdd for EXTENT CELL operation not located.
+Cell name parameter *FLTWDVDD for EXTENT CELL operation not located.
+Cell name parameter *flwdvddg1 for EXTENT CELL operation not located.
+Cell name parameter *FLWDVDDG1 for EXTENT CELL operation not located.
+Cell name parameter *flwdvddg2 for EXTENT CELL operation not located.
+Cell name parameter *FLWDVDDG2 for EXTENT CELL operation not located.
+Cell name parameter *flwdvddg3 for EXTENT CELL operation not located.
+Cell name parameter *FLWDVDDG3 for EXTENT CELL operation not located.
+Cell name parameter *flwdvddt1 for EXTENT CELL operation not located.
+Cell name parameter *FLWDVDDT1 for EXTENT CELL operation not located.
+Cell name parameter *flwdvddt24 for EXTENT CELL operation not located.
+Cell name parameter *FLWDVDDT24 for EXTENT CELL operation not located.
+Cell name parameter *mblbase1 for EXTENT CELL operation not located.
+Cell name parameter *MBLBASE1 for EXTENT CELL operation not located.
+Cell name parameter *mblbase24 for EXTENT CELL operation not located.
+Cell name parameter *MBLBASE24 for EXTENT CELL operation not located.
+Cell name parameter *caplette for EXTENT CELL operation not located.
+Cell name parameter *CAPLETTE for EXTENT CELL operation not located.
+Cell name parameter *cccol0 for EXTENT CELL operation not located.
+Cell name parameter *CCCOL0 for EXTENT CELL operation not located.
+Cell name parameter *ccwing_l for EXTENT CELL operation not located.
+Cell name parameter *CCWING_L for EXTENT CELL operation not located.
+Cell name parameter *ccwing_r for EXTENT CELL operation not located.
+Cell name parameter *CCWING_R for EXTENT CELL operation not located.
+Cell name parameter *mid for EXTENT CELL operation not located.
+Cell name parameter *MID for EXTENT CELL operation not located.
+Cell name parameter *mux1cdsacap for EXTENT CELL operation not located.
+Cell name parameter *MUX1CDSACAP for EXTENT CELL operation not located.
+Cell name parameter *mux1modelrow_l for EXTENT CELL operation not located.
+Cell name parameter *MUX1MODELROW_L for EXTENT CELL operation not located.
+Cell name parameter *mux1modelrow_r for EXTENT CELL operation not located.
+Cell name parameter *MUX1MODELROW_R for EXTENT CELL operation not located.
+Cell name parameter *mux1topend_l for EXTENT CELL operation not located.
+Cell name parameter *MUX1TOPEND_L for EXTENT CELL operation not located.
+Cell name parameter *mux1topend_r for EXTENT CELL operation not located.
+Cell name parameter *MUX1TOPEND_R for EXTENT CELL operation not located.
+Cell name parameter *_BOTTOM for EXTENT CELL operation not located.
+Cell name parameter *_CORE_1_C_D for EXTENT CELL operation not located.
+Cell name parameter *_TOP_LAY for EXTENT CELL operation not located.
+Cell name parameter m32b04_eref0 for EXTENT CELL operation not located.
+Cell name parameter m32b04_eref1 for EXTENT CELL operation not located.
+Cell name parameter m32b04_l2ref0 for EXTENT CELL operation not located.
+Cell name parameter m32b04_l2ref1 for EXTENT CELL operation not located.
+Cell name parameter m32b04_lref0 for EXTENT CELL operation not located.
+Cell name parameter m32b04_lref1 for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram2p_w for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram2r for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram2w for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram2x for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram6r for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram6t for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram6t_602 for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram6w for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram6x for EXTENT CELL operation not located.
+Cell name parameter m32b04_stram2r0 for EXTENT CELL operation not located.
+Cell name parameter m32b04_stram2r1 for EXTENT CELL operation not located.
+Cell name parameter m32b04_stram6r0 for EXTENT CELL operation not located.
+Cell name parameter m32b04_stram6r1 for EXTENT CELL operation not located.
+Cell name parameter m32b04_w2ram for EXTENT CELL operation not located.
+Cell name parameter m32b04_wram6t for EXTENT CELL operation not located.
+Cell name parameter m35b04_ram6t_rf_991027_380 for EXTENT CELL operation not located.
+Cell name parameter m35b04_rfcell for EXTENT CELL operation not located.
+Cell name parameter *flmwg for EXTENT CELL operation not located.
+Cell name parameter *FLMWG for EXTENT CELL operation not located.
+Cell name parameter *model_row_32 for EXTENT CELL operation not located.
+Cell name parameter *MODEL_ROW_32 for EXTENT CELL operation not located.
+Cell name parameter *swwas0wwwiwap2iv for EXTENT CELL operation not located.
+Cell name parameter *SWWAS0WWWIWAP2IV for EXTENT CELL operation not located.
+Cell name parameter *_C_1_COL_ODD for EXTENT CELL operation not located.
+Cell name parameter *_C_TOP_IOCM4 for EXTENT CELL operation not located.
+Cell name parameter *_CORE_1_C_EVEN for EXTENT CELL operation not located.
+Cell name parameter *_CORE_1_COL_D for EXTENT CELL operation not located.
+Cell name parameter *_CORE_L for EXTENT CELL operation not located.
+Cell name parameter *_CORE_R for EXTENT CELL operation not located.
+Cell name parameter *_CORE1C_DTOP for EXTENT CELL operation not located.
+Cell name parameter m32b04_e2ref0 for EXTENT CELL operation not located.
+Cell name parameter m32b04_e2ref1 for EXTENT CELL operation not located.
+Cell name parameter m32b04_ram2p for EXTENT CELL operation not located.
+Cell name parameter m32b04_strap2p for EXTENT CELL operation not located.
+Cell name parameter m32b04_wram2p for EXTENT CELL operation not located.
+Cell name parameter m32b04_zref0 for EXTENT CELL operation not located.
+Cell name parameter m32b04_zref1 for EXTENT CELL operation not located.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER COMP_Label ................... TOTAL Original Geometry Count = 0  (0)
+LAYER COMP_Dummy ................... TOTAL Original Geometry Count = 0  (0)
+LAYER my_COMP ...................... TOTAL Original Geometry Count = 10 (10)
+LAYER Poly2_Label .................. TOTAL Original Geometry Count = 0  (0)
+LAYER Poly2_Dummy .................. TOTAL Original Geometry Count = 0  (0)
+LAYER my_Poly2 ..................... TOTAL Original Geometry Count = 17 (17)
+LAYER Metal1_Label ................. TOTAL Original Geometry Count = 4  (4)
+LAYER Metal1_Dummy ................. TOTAL Original Geometry Count = 0  (0)
+LAYER my_Metal1 .................... TOTAL Original Geometry Count = 31 (31)
+LAYER Metal2_Label ................. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal2_Dummy ................. TOTAL Original Geometry Count = 0  (0)
+LAYER my_Metal2 .................... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal3_Label ................. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal3_Dummy ................. TOTAL Original Geometry Count = 0  (0)
+LAYER my_Metal3 .................... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal4_Label ................. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal4_Dummy ................. TOTAL Original Geometry Count = 0  (0)
+LAYER my_Metal4 .................... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal5_Label ................. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal5_Dummy ................. TOTAL Original Geometry Count = 0  (0)
+LAYER my_Metal5 .................... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal6_Label ................. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal6_Dummy ................. TOTAL Original Geometry Count = 0  (0)
+LAYER my_Metal6 .................... TOTAL Original Geometry Count = 0  (0)
+LAYER eda_lib018gs006_1a_03_ZERO ... TOTAL Original Geometry Count = 2  (2)
+LAYER Via5 ......................... TOTAL Original Geometry Count = 0  (0)
+LAYER Via4 ......................... TOTAL Original Geometry Count = 0  (0)
+LAYER Via3 ......................... TOTAL Original Geometry Count = 0  (0)
+LAYER Via2 ......................... TOTAL Original Geometry Count = 0  (0)
+LAYER FuseTop2 ..................... TOTAL Original Geometry Count = 0  (0)
+LAYER FuseTop ...................... TOTAL Original Geometry Count = 0  (0)
+LAYER Pad .......................... TOTAL Original Geometry Count = 0  (0)
+LAYER Nwell ........................ TOTAL Original Geometry Count = 3  (3)
+LAYER Nplus ........................ TOTAL Original Geometry Count = 2  (2)
+LAYER Pplus ........................ TOTAL Original Geometry Count = 2  (2)
+LAYER LVS_BJT ...................... TOTAL Original Geometry Count = 0  (0)
+LAYER RES_MK ....................... TOTAL Original Geometry Count = 0  (0)
+LAYER RES_MK_TYPE1 ................. TOTAL Original Geometry Count = 0  (0)
+LAYER DIODE_MK ..................... TOTAL Original Geometry Count = 0  (0)
+LAYER PISCAP ....................... TOTAL Original Geometry Count = 0  (0)
+LAYER LVS_CAP ...................... TOTAL Original Geometry Count = 0  (0)
+LAYER SramCore ..................... TOTAL Original Geometry Count = 0  (0)
+LAYER SAB .......................... TOTAL Original Geometry Count = 0  (0)
+LAYER Dualgate ..................... TOTAL Original Geometry Count = 0  (0)
+LAYER Contact ...................... TOTAL Original Geometry Count = 9  (9)
+LAYER Resistor ..................... TOTAL Original Geometry Count = 0  (0)
+LAYER Via1 ......................... TOTAL Original Geometry Count = 0  (0)
+LAYER IND_MK ....................... TOTAL Original Geometry Count = 0  (0)
+LAYER TN ........................... TOTAL Original Geometry Count = 0  (0)
+LAYER TP ........................... TOTAL Original Geometry Count = 0  (0)
+LAYER HVN .......................... TOTAL Original Geometry Count = 0  (0)
+LAYER OTPGate ...................... TOTAL Original Geometry Count = 0  (0)
+LAYER NAT .......................... TOTAL Original Geometry Count = 0  (0)
+LAYER DNWELL ....................... TOTAL Original Geometry Count = 0  (0)
+LAYER LVT .......................... TOTAL Original Geometry Count = 0  (0)
+LAYER UBMEPlate .................... TOTAL Original Geometry Count = 0  (0)
+LAYER UBMPArray .................... TOTAL Original Geometry Count = 0  (0)
+LAYER UBMPPeri ..................... TOTAL Original Geometry Count = 0  (0)
+LAYER GUARD_RING_MK ................ TOTAL Original Geometry Count = 0  (0)
+LAYER MetalRDL ..................... TOTAL Original Geometry Count = 0  (0)
+LAYER ViaRDL ....................... TOTAL Original Geometry Count = 0  (0)
+LAYER ESD .......................... TOTAL Original Geometry Count = 0  (0)
+LAYER NDMY ......................... TOTAL Original Geometry Count = 0  (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK nwell_offgrid ............. TOTAL Result Count = 0                    (0)
+RULECHECK comp_offgrid .............. TOTAL Result Count = 0                    (0)
+RULECHECK pimp_offgrid .............. TOTAL Result Count = 0                    (0)
+RULECHECK nimp_offgrid .............. TOTAL Result Count = 0                    (0)
+RULECHECK dualgate_offgrid .......... TOTAL Result Count = 0                    (0)
+RULECHECK poly2_offgrid ............. TOTAL Result Count = 0                    (0)
+RULECHECK SAB_offgrid ............... TOTAL Result Count = 0                    (0)
+RULECHECK contact_offgrid ........... TOTAL Result Count = 0                    (0)
+RULECHECK metal1_offgrid ............ TOTAL Result Count = 0                    (0)
+RULECHECK via1_offgrid .............. TOTAL Result Count = 0                    (0)
+RULECHECK metal2_offgrid ............ TOTAL Result Count = 0                    (0)
+RULECHECK via2_offgrid .............. TOTAL Result Count = 0                    (0)
+RULECHECK metal3_offgrid ............ TOTAL Result Count = 0                    (0)
+RULECHECK via3_offgrid .............. TOTAL Result Count = 0                    (0)
+RULECHECK metal4_offgrid ............ TOTAL Result Count = 0                    (0)
+RULECHECK via4_offgrid .............. TOTAL Result Count = 0                    (0)
+RULECHECK metal5_offgrid ............ TOTAL Result Count = 0                    (0)
+RULECHECK via5_offgrid .............. TOTAL Result Count = 0                    (0)
+RULECHECK mt_offgrid ................ TOTAL Result Count = 0                    (0)
+RULECHECK pad_offgrid ............... TOTAL Result Count = 0                    (0)
+RULECHECK esd_offgrid ............... TOTAL Result Count = 0                    (0)
+RULECHECK piscap_offgrid ............ TOTAL Result Count = 0                    (0)
+RULECHECK tn_offgrid ................ TOTAL Result Count = 0                    (0)
+RULECHECK tp_offgrid ................ TOTAL Result Count = 0                    (0)
+RULECHECK hvn_offgrid ............... TOTAL Result Count = 0                    (0)
+RULECHECK dnwell_offgrid ............ TOTAL Result Count = 0                    (0)
+RULECHECK lvt_offgrid ............... TOTAL Result Count = 0                    (0)
+RULECHECK nat_offgrid ............... TOTAL Result Count = 0                    (0)
+RULECHECK hres_offgrid .............. TOTAL Result Count = 0                    (0)
+RULECHECK OTPGate_offgrid ........... TOTAL Result Count = 0                    (0)
+RULECHECK FuseTop_offgrid ........... TOTAL Result Count = 0                    (0)
+RULECHECK FuseTop2_offgrid .......... TOTAL Result Count = 0                    (0)
+RULECHECK ViaRDL_offgrid ............ TOTAL Result Count = 0                    (0)
+RULECHECK MetalRDL_offgrid .......... TOTAL Result Count = 0                    (0)
+RULECHECK UBMPPeri_offgrid .......... TOTAL Result Count = 0                    (0)
+RULECHECK UBMPArray_offgrid ......... TOTAL Result Count = 0                    (0)
+RULECHECK UBMEPlate_offgrid ......... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.1 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.8 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.2 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.9 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.3 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.3_T ................... NOT EXECUTED
+RULECHECK ANT.10 .................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.4 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.4_T ................... NOT EXECUTED
+RULECHECK ANT.11 .................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.5 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.5_T ................... NOT EXECUTED
+RULECHECK ANT.12 .................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.6 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.6_T ................... NOT EXECUTED
+RULECHECK ANT.13 .................... TOTAL Result Count = 0                    (0)
+RULECHECK ANT.7_T ................... TOTAL Result Count = 0                    (0)
+RULECHECK NW.1a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NW.1b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.1a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.3a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.3b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.5 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.6 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.7 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.8 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.9 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.10 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.11 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DF.12 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DV.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DV.2 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DV.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DV.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DV.5 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DV.6 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PL.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PL.3a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PL.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PL.5a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PL.5b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PL.6 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PL.7 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PL_1.a.DV2N ............... TOTAL Result Count = 0                    (0)
+RULECHECK PL_1.a.DV2P ............... TOTAL Result Count = 0                    (0)
+RULECHECK NP.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.2 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.3a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.3b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.3c ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.3d&e ................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.4a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.4b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.5a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.5b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.5c ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.5d ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.6 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.7 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.8a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.8b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.9 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.10 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.11 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NP.12 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.2 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.3a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.3b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.3c ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.3d&e ................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.4a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.4b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.5a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.5b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.5c ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.5d ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.6 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.7 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.8a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.8b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.9 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.10 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.11 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PP.12 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.2 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.5a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.5b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.6 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.7 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.9 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.10 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.11 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.12 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.13 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.14a .................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.14b .................... TOTAL Result Count = 0                    (0)
+RULECHECK SB.15b .................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.1 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.2 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.3a .................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.4a .................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.4b .................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.5a .................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.5b .................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.6 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.7 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.8 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK ESD.PL .................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.2a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.2b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.5a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.6 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.6_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.6_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.7 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.8 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.10 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK CO.11 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M1.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK M1.2a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M1.2b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M1.3 ...................... TOTAL Result Count = 1                    (1)
+RULECHECK V1.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V1.2 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK L_V1.1b ................... NOT EXECUTED
+RULECHECK L_V1.2b ................... NOT EXECUTED
+RULECHECK V1.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V1.3_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V1.3_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK V1.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V1.4_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V1.4_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK M2.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK M2.2a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M2.2b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M2.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V2.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V2.2 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK L_V2.1b ................... NOT EXECUTED
+RULECHECK L_V2.2b ................... NOT EXECUTED
+RULECHECK V2.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V2.3_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V2.3_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK V2.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V2.4_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V2.4_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK M3.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK M3.2a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M3.2b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M3.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V3.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V3.2 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK L_V3.1b ................... NOT EXECUTED
+RULECHECK L_V3.2b ................... NOT EXECUTED
+RULECHECK V3.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V3.3_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V3.3_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK V3.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V3.4_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V3.4_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK M4.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK M4.2a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M4.2b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M4.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V4.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V4.2 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK L_V4.1b ................... NOT EXECUTED
+RULECHECK L_V4.2b ................... NOT EXECUTED
+RULECHECK V4.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V4.3_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V4.3_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK V4.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V4.4_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V4.4_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK M5.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK M5.2a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M5.2b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK M5.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V5.1a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK V5.2a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK L_V5.1b ................... NOT EXECUTED
+RULECHECK L_V5.2b ................... NOT EXECUTED
+RULECHECK V5.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V5.3_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V5.3_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK V5.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK V5.4_i .................... TOTAL Result Count = 0                    (0)
+RULECHECK V5.4_ii ................... TOTAL Result Count = 0                    (0)
+RULECHECK MT.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK MT.2a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK MT.2b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK MT.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK G.PAD.1 ................... NOT EXECUTED
+RULECHECK G.PAD.2 ................... NOT EXECUTED
+RULECHECK G.PAD.3_FEOL .............. NOT EXECUTED
+RULECHECK G.PAD.3_M1 ................ NOT EXECUTED
+RULECHECK G.PAD.3_M2 ................ NOT EXECUTED
+RULECHECK G.PAD.3_M3 ................ NOT EXECUTED
+RULECHECK G.PAD.3_M4 ................ NOT EXECUTED
+RULECHECK G.PAD.3_M5 ................ NOT EXECUTED
+RULECHECK PAD.4_M2 .................. NOT EXECUTED
+RULECHECK PAD.4_M3 .................. NOT EXECUTED
+RULECHECK PAD.4_M4 .................. NOT EXECUTED
+RULECHECK PAD.4_M5 .................. NOT EXECUTED
+RULECHECK PAD.4_M6 .................. TOTAL Result Count = 0                    (0)
+RULECHECK G.PAD.5 ................... NOT EXECUTED
+RULECHECK G.PAD.6 ................... NOT EXECUTED
+RULECHECK G.PAD.7 ................... NOT EXECUTED
+RULECHECK G.PAD.8 ................... NOT EXECUTED
+RULECHECK G.PAD.9 ................... NOT EXECUTED
+RULECHECK G.PAD.10 .................. NOT EXECUTED
+RULECHECK G.PAD.11 .................. NOT EXECUTED
+RULECHECK G.PAD.12 .................. NOT EXECUTED
+RULECHECK G.PAD.13 .................. NOT EXECUTED
+RULECHECK G.PAD.14 .................. NOT EXECUTED
+RULECHECK G.PAD.17 .................. NOT EXECUTED
+RULECHECK G.PAD.18 .................. NOT EXECUTED
+RULECHECK G.PAD.19_M1 ............... NOT EXECUTED
+RULECHECK G.PAD.19_M2 ............... NOT EXECUTED
+RULECHECK G.PAD.19_M3 ............... NOT EXECUTED
+RULECHECK G.PAD.19_M4 ............... NOT EXECUTED
+RULECHECK G.PAD.19_M5 ............... NOT EXECUTED
+RULECHECK G.PAD.19_M6 ............... NOT EXECUTED
+RULECHECK G.PAD.20_M1 ............... NOT EXECUTED
+RULECHECK G.PAD.20_M2 ............... NOT EXECUTED
+RULECHECK G.PAD.20_M3 ............... NOT EXECUTED
+RULECHECK G.PAD.20_M4 ............... NOT EXECUTED
+RULECHECK G.PAD.20_M5 ............... NOT EXECUTED
+RULECHECK G.PAD.20_M6 ............... NOT EXECUTED
+RULECHECK CUP.1_FEOL ................ NOT EXECUTED
+RULECHECK CUP.1_M1 .................. NOT EXECUTED
+RULECHECK CUP.1_M2 .................. NOT EXECUTED
+RULECHECK CUP.2_M3 .................. NOT EXECUTED
+RULECHECK CUP.3_M4 .................. TOTAL Result Count = 0                    (0)
+RULECHECK CUP.5_5M .................. NOT EXECUTED
+RULECHECK CUP.5_6M .................. TOTAL Result Count = 0                    (0)
+RULECHECK CUP.6_5M .................. NOT EXECUTED
+RULECHECK CUP.6_6M .................. TOTAL Result Count = 0                    (0)
+RULECHECK PL.8 ...................... TOTAL Result Count = 1                    (1)
+RULECHECK G_PL.8a ................... TOTAL Result Count = 1                    (1)
+RULECHECK G_PL.8b ................... TOTAL Result Count = 0                    (0)
+RULECHECK MD1.4 ..................... TOTAL Result Count = 1                    (1)
+RULECHECK MD2.4 ..................... TOTAL Result Count = 1                    (1)
+RULECHECK MD3.4 ..................... TOTAL Result Count = 1                    (1)
+RULECHECK MD4.4 ..................... TOTAL Result Count = 1                    (1)
+RULECHECK MD5.4 ..................... TOTAL Result Count = 1                    (1)
+RULECHECK MD6.4 ..................... TOTAL Result Count = 1                    (1)
+RULECHECK DTN.1 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.2 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.3 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.4a .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.4b .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.4c .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.5 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.6 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.7 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.8a .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.8c .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTN.9 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.1 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.2 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.3 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.4a .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.4b .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.4c .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.5 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.6 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.7 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.8a .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.8c .................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.9 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DTP.10 .................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.1 .................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.2 .................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.3 .................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.4a ................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.4b ................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.4c ................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.5 .................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.6 .................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.7 .................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.8a ................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.8c ................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.9 .................... TOTAL Result Count = 0                    (0)
+RULECHECK DHVN.10 ................... TOTAL Result Count = 0                    (0)
+RULECHECK OTP.1 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK OTP.2 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK OTP.3 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK OTP.4 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK OTP.5 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK OTP.6 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK OTP.7 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK O.PL_1.a.DV2P ............. TOTAL Result Count = 0                    (0)
+RULECHECK O.SB.4 .................... TOTAL Result Count = 0                    (0)
+RULECHECK O.SB.5a ................... TOTAL Result Count = 0                    (0)
+RULECHECK O.SB.5b ................... TOTAL Result Count = 0                    (0)
+RULECHECK O.SB.9 .................... TOTAL Result Count = 0                    (0)
+RULECHECK O.SB.11 ................... TOTAL Result Count = 0                    (0)
+RULECHECK NAT.1_CB .................. TOTAL Result Count = 0                    (0)
+RULECHECK NAT.1_IB .................. NOT EXECUTED
+RULECHECK NAT.2_CB .................. TOTAL Result Count = 0                    (0)
+RULECHECK NAT.2_IB .................. NOT EXECUTED
+RULECHECK NAT.3_CB .................. TOTAL Result Count = 0                    (0)
+RULECHECK NAT.3_IB .................. NOT EXECUTED
+RULECHECK NAT.4_CB .................. TOTAL Result Count = 0                    (0)
+RULECHECK NAT.4_IB .................. NOT EXECUTED
+RULECHECK NAT.5 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NAT.6 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NAT.7_CB .................. TOTAL Result Count = 0                    (0)
+RULECHECK NAT.7_IB .................. NOT EXECUTED
+RULECHECK NAT.8 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PRES.1 .................... TOTAL Result Count = 0                    (0)
+RULECHECK PRES.2 .................... TOTAL Result Count = 0                    (0)
+RULECHECK PRES.3 .................... TOTAL Result Count = 0                    (0)
+RULECHECK PRES.4 .................... TOTAL Result Count = 0                    (0)
+RULECHECK PRES.5 .................... TOTAL Result Count = 0                    (0)
+RULECHECK PRES.6 .................... TOTAL Result Count = 0                    (0)
+RULECHECK PRES.7 .................... TOTAL Result Count = 0                    (0)
+RULECHECK LRES.1 .................... TOTAL Result Count = 0                    (0)
+RULECHECK LRES.2 .................... TOTAL Result Count = 0                    (0)
+RULECHECK LRES.3 .................... TOTAL Result Count = 0                    (0)
+RULECHECK LRES.4 .................... TOTAL Result Count = 0                    (0)
+RULECHECK LRES.5 .................... TOTAL Result Count = 0                    (0)
+RULECHECK LRES.6 .................... TOTAL Result Count = 0                    (0)
+RULECHECK LRES.7 .................... TOTAL Result Count = 0                    (0)
+RULECHECK MT30.1_MTK.1 .............. NOT EXECUTED
+RULECHECK MT30.2a_MTK.2a ............ NOT EXECUTED
+RULECHECK MT30.2b_MTK.2b ............ NOT EXECUTED
+RULECHECK MTK.7 ..................... NOT EXECUTED
+RULECHECK MT30.8ab .................. NOT EXECUTED
+RULECHECK G.MTK.9ab ................. NOT EXECUTED
+RULECHECK DN.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DN.2 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DN.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DN.4 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DN.5 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DN.6 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK DN.7 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK PIS.1 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PIS.2 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PIS.3 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PIS.4 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PIS.5 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PIS.6 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PIS.7 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PIS.8 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK PIS.9 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK S.DF.3 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.DF.7 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.DF.8 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.PL.1 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.PL.3aii ................. TOTAL Result Count = 0                    (0)
+RULECHECK S.PL.4 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.PL.4i ................... TOTAL Result Count = 0                    (0)
+RULECHECK S.PL.5b ................... TOTAL Result Count = 0                    (0)
+RULECHECK S.CO.1 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.CO.1i_ii ................ TOTAL Result Count = 0                    (0)
+RULECHECK S.CO.3 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.CO.3.i .................. TOTAL Result Count = 0                    (0)
+RULECHECK S.CO.4 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.CO.4.i .................. TOTAL Result Count = 0                    (0)
+RULECHECK S.CO.6 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.CO.7 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.CO.8 .................... TOTAL Result Count = 0                    (0)
+RULECHECK S.M1.1 .................... TOTAL Result Count = 0                    (0)
+RULECHECK NW.2a ..................... TOTAL Result Count = 0                    (0)
+RULECHECK NW.2b ..................... TOTAL Result Count = 0                    (0)
+RULECHECK LVT.TOPO_ERR_DIO .......... TOTAL Result Count = 0                    (0)
+RULECHECK LVT.TOPO_ERR_CAP .......... TOTAL Result Count = 0                    (0)
+RULECHECK LVT.TOPO_ERR_RES .......... TOTAL Result Count = 0                    (0)
+RULECHECK LVT.TOPO_ERR_BJT .......... TOTAL Result Count = 0                    (0)
+RULECHECK LVT.1a .................... TOTAL Result Count = 0                    (0)
+RULECHECK LVT.1b_LVT.5b_LVT.9 ....... TOTAL Result Count = 0                    (0)
+RULECHECK LVT.2_LVT.6_LVT.10 ........ TOTAL Result Count = 0                    (0)
+RULECHECK LVT.3_LVT.7_LVT.11 ........ TOTAL Result Count = 0                    (0)
+RULECHECK LVT.4_LVT.8_LVT.12 ........ TOTAL Result Count = 0                    (0)
+RULECHECK LVT.5a .................... TOTAL Result Count = 0                    (0)
+RULECHECK LVT.13 .................... TOTAL Result Count = 0                    (0)
+RULECHECK LVT.14 .................... TOTAL Result Count = 0                    (0)
+RULECHECK NDRES.1 ................... TOTAL Result Count = 0                    (0)
+RULECHECK NDRES.2 ................... TOTAL Result Count = 0                    (0)
+RULECHECK NDRES.3 ................... TOTAL Result Count = 0                    (0)
+RULECHECK NDRES.4 ................... TOTAL Result Count = 0                    (0)
+RULECHECK NDRES.5 ................... TOTAL Result Count = 0                    (0)
+RULECHECK NDRES.6 ................... TOTAL Result Count = 0                    (0)
+RULECHECK NDRES.7 ................... TOTAL Result Count = 0                    (0)
+RULECHECK PDRES.1 ................... TOTAL Result Count = 0                    (0)
+RULECHECK PDRES.2 ................... TOTAL Result Count = 0                    (0)
+RULECHECK PDRES.3 ................... TOTAL Result Count = 0                    (0)
+RULECHECK PDRES.4 ................... TOTAL Result Count = 0                    (0)
+RULECHECK PDRES.5 ................... TOTAL Result Count = 0                    (0)
+RULECHECK PDRES.6 ................... TOTAL Result Count = 0                    (0)
+RULECHECK PDRES.7 ................... TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.1 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.2 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.3 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.4 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.5 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.6 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.7 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.8 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.9 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.10 ................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.12_PRes1k .......... TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.12_PRes2k .......... TOTAL Result Count = 0                    (0)
+RULECHECK HRES.P.13 ................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.1 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.2 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.3 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.4 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.5 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.6 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.7 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.8 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.9 .................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.10 ................. TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.12_NRes1k .......... TOTAL Result Count = 0                    (0)
+RULECHECK HRES.N.13 ................. TOTAL Result Count = 0                    (0)
+RULECHECK MIM.1 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK MIM.2 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK MIM.3 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK MIM.4 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK MIM.5 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK MIM.6 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK MIM.8 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK MIM.9a .................... TOTAL Result Count = 0                    (0)
+RULECHECK MIM.9b .................... TOTAL Result Count = 0                    (0)
+RULECHECK G.MIM.10_psub ............. NOT EXECUTED
+RULECHECK SMIM.1a ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.1b ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.2a ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.2b ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.3a ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.3b ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.4a ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.4b ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.5a ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.5b ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.6a ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.6b ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.8a ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.8b ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.9a ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.9b ................... TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.10a .................. TOTAL Result Count = 0                    (0)
+RULECHECK SMIM.10b .................. TOTAL Result Count = 0                    (0)
+RULECHECK G.SMIM.11a_psub ........... NOT EXECUTED
+RULECHECK G.SMIM.11b_psub ........... NOT EXECUTED
+RULECHECK SMIM.12 ................... TOTAL Result Count = 0                    (0)
+RULECHECK TM.Note ................... NOT EXECUTED
+RULECHECK TM.1 ...................... NOT EXECUTED
+RULECHECK TM.1a ..................... NOT EXECUTED
+RULECHECK TM.2 ...................... NOT EXECUTED
+RULECHECK TM.3 ...................... NOT EXECUTED
+RULECHECK TM.3b ..................... NOT EXECUTED
+RULECHECK TM.4 ...................... NOT EXECUTED
+RULECHECK TM.5 ...................... NOT EXECUTED
+RULECHECK TM.6 ...................... NOT EXECUTED
+RULECHECK TM.7 ...................... NOT EXECUTED
+RULECHECK TM.8 ...................... NOT EXECUTED
+RULECHECK PM.1 ...................... NOT EXECUTED
+RULECHECK PM.2 ...................... NOT EXECUTED
+RULECHECK PM.3 ...................... NOT EXECUTED
+RULECHECK PM.4 ...................... NOT EXECUTED
+RULECHECK PM.5 ...................... NOT EXECUTED
+RULECHECK PAD.TOPO.withUBM .......... TOTAL Result Count = 0                    (0)
+RULECHECK GR.TOPO.No_GR_Mk .......... TOTAL Result Count = 1                    (1)
+RULECHECK GR.Ring_Broken_Mk ......... TOTAL Result Count = 0                    (0)
+RULECHECK GR.Ring_Broken_M1 ......... TOTAL Result Count = 0                    (0)
+RULECHECK GR.Ring_Broken_M2 ......... TOTAL Result Count = 0                    (0)
+RULECHECK GR.Ring_Broken_M3 ......... TOTAL Result Count = 0                    (0)
+RULECHECK GR.Ring_Broken_M4 ......... TOTAL Result Count = 0                    (0)
+RULECHECK GR.Ring_Broken_M5 ......... TOTAL Result Count = 0                    (0)
+RULECHECK GR.Ring_Broken_Mt ......... TOTAL Result Count = 0                    (0)
+RULECHECK GR.Ring_Broken_MetalRDL ... TOTAL Result Count = 0                    (0)
+RULECHECK GR.Multiple_Mk ............ TOTAL Result Count = 0                    (0)
+RULECHECK GR.1 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_COMP ................. TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_Nwell ................ TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_DNWELL ............... TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_Poly2 ................ TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_M1 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_M2 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_M3 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_M4 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_M5 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_Mt ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.2_MetalRDL ............. TOTAL Result Count = 0                    (0)
+RULECHECK GR.3 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.4_GR.9_M1 .............. TOTAL Result Count = 0                    (0)
+RULECHECK GR.4_GR.9_M2 .............. TOTAL Result Count = 0                    (0)
+RULECHECK GR.4_GR.9_M3 .............. TOTAL Result Count = 0                    (0)
+RULECHECK GR.4_GR.9_M4 .............. TOTAL Result Count = 0                    (0)
+RULECHECK GR.4_GR.9_M5 .............. TOTAL Result Count = 0                    (0)
+RULECHECK GR.4_GR.9_Mt .............. TOTAL Result Count = 0                    (0)
+RULECHECK GR.4_GR.9_MetalRDL ........ TOTAL Result Count = 0                    (0)
+RULECHECK GR.6 ...................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.7_GR.9 ................. TOTAL Result Count = 0                    (0)
+RULECHECK GR.8_V1 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.8_V2 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.8_V3 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.8_V4 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.8_V5 ................... TOTAL Result Count = 0                    (0)
+RULECHECK GR.8_ViaRDL ............... TOTAL Result Count = 0                    (0)
+RULECHECK GR.11_Solder .............. NOT EXECUTED
+RULECHECK GR.11_Others .............. TOTAL Result Count = 0                    (0)
+RULECHECK DM.1_M1 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.1_M2 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.1_M3 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.1_M4 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.1_M5 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.1_M6 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.2_M1 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.2_M2 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.2_M3 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.2_M4 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.2_M5 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.2_M6 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.3_M1 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.3_M2 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.3_M3 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.3_M4 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.3_M5 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.3_M6 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.4_M1 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.4_M2 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.4_M3 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.4_M4 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.4_M5 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.4_M6 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.5_M1 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.5_M2 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.5_M3 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.5_M4 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.5_M5 ................... TOTAL Result Count = 0                    (0)
+RULECHECK DM.5_M6 ................... TOTAL Result Count = 0                    (0)
+RULECHECK RDL.1 ..................... NOT EXECUTED
+RULECHECK RDL.2 ..................... NOT EXECUTED
+RULECHECK RDL.3 ..................... NOT EXECUTED
+RULECHECK RDL.6 ..................... NOT EXECUTED
+RULECHECK RDL.7 ..................... NOT EXECUTED
+RULECHECK RDL.8 ..................... NOT EXECUTED
+RULECHECK RDLV.1 .................... NOT EXECUTED
+RULECHECK RDLV.2 .................... NOT EXECUTED
+RULECHECK RDLV.3 .................... NOT EXECUTED
+RULECHECK RDLV.4 .................... NOT EXECUTED
+RULECHECK RDLV.5 .................... NOT EXECUTED
+RULECHECK DCF.1 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DCF.2 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DCF.4 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DCF.5 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DCF.6 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DCF.8 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DCF.9 ..................... TOTAL Result Count = 0                    (0)
+RULECHECK DCF.11 .................... TOTAL Result Count = 0                    (0)
+RULECHECK DCF.12_DCF.13 ............. TOTAL Result Count = 0                    (0)
+RULECHECK DCF.14 .................... TOTAL Result Count = 1                    (1)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS (BY CELL)
+---
+CELL Lab_3_inverter .............. TOTAL Result Count = 11 (11)
+    RULECHECK M1.3 ............... TOTAL Result Count = 1  (1)
+    RULECHECK PL.8 ............... TOTAL Result Count = 1  (1)
+    RULECHECK G_PL.8a ............ TOTAL Result Count = 1  (1)
+    RULECHECK MD1.4 .............. TOTAL Result Count = 1  (1)
+    RULECHECK MD2.4 .............. TOTAL Result Count = 1  (1)
+    RULECHECK MD3.4 .............. TOTAL Result Count = 1  (1)
+    RULECHECK MD4.4 .............. TOTAL Result Count = 1  (1)
+    RULECHECK MD5.4 .............. TOTAL Result Count = 1  (1)
+    RULECHECK MD6.4 .............. TOTAL Result Count = 1  (1)
+    RULECHECK GR.TOPO.No_GR_Mk ... TOTAL Result Count = 1  (1)
+    RULECHECK DCF.14 ............. TOTAL Result Count = 1  (1)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 0
+TOTAL Original Layer Geometries: 80 (80)
+TOTAL DRC RuleChecks Executed:   504
+TOTAL DRC Results Generated:     11 (11)

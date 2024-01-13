@@ -1,0 +1,534 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         Lab_3_inverter.lvs.report
+LAYOUT NAME:              /home1/msc18y23/CSM018IC_rev14/svdb/Lab_3_inverter.sp ('Lab_3_inverter')
+SOURCE NAME:              /home1/msc18y23/CSM018IC_rev14/Lab_3_inverter.src.net ('Lab_3_inverter')
+RULE FILE:                /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+RULE FILE TITLE:          Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+CREATION TIME:            Tue Jan  9 11:51:32 2024
+CURRENT DIRECTORY:        /home1/msc18y23/CSM018IC_rev14
+USER NAME:                msc18y23
+CALIBRE VERSION:          v2013.3_19.14    Thu Aug 15 13:51:23 PDT 2013
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        Lab_3_inverter                Lab_3_inverter
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   LVS PIN NAME PROPERTY                  phy_pin
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "GND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            NO
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       NO
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        ALL
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           NO
+   LVS REDUCE PARALLEL CAPACITORS         NO
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  MN(nmos_1p8)  PARALLEL [ TOLERANCE L 0 ]
+   LVS REDUCE  MN(nmos_1p8)  SERIES S D [ TOLERANCE W 0 M 0 ]
+   LVS REDUCE  MP(pmos_1p8)  PARALLEL [ TOLERANCE L 0 ]
+   LVS REDUCE  MP(pmos_1p8)  SERIES S D [ TOLERANCE W 0 M 0 ]
+   LVS REDUCE  MN(nmos_1p8_nat)  PARALLEL [ TOLERANCE L 0 ]
+   LVS REDUCE  MN(nmos_1p8_nat)  SERIES S D [ TOLERANCE W 0 M 0 ]
+   LVS REDUCE  MN(nmos_3p3)  PARALLEL [ TOLERANCE NF 0 L 0 W 0 ]
+   LVS REDUCE  MN(nmos_3p3)  SERIES S D [ TOLERANCE NF 0 L 0 W 0 ]
+   LVS REDUCE  MN(nmos_3p3_nat)  PARALLEL [ TOLERANCE L 0 ]
+   LVS REDUCE  MN(nmos_3p3_nat)  SERIES S D [ TOLERANCE W 0 M 0 ]
+   LVS REDUCE  MP(pmos_3p3)  PARALLEL [ TOLERANCE NF 0 L 0 W 0 ]
+   LVS REDUCE  MP(pmos_3p3)  SERIES S D [ TOLERANCE NF 0 L 0 W 0 ]
+   LVS REDUCE  MN(nmos_3p3_lvt)  PARALLEL [ TOLERANCE L 0 ]
+   LVS REDUCE  MN(nmos_3p3_lvt)  SERIES S D [ TOLERANCE W 0 M 0 ]
+   LVS REDUCE  MP(pmos_3p3_lvt)  PARALLEL [ TOLERANCE L 0 ]
+   LVS REDUCE  MP(pmos_3p3_lvt)  SERIES S D [ TOLERANCE W 0 M 0 ]
+   LVS REDUCE  MN(nmos_8p0_asym)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  MN(nmos_8p0_asym)  SERIES S D [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  MP(pmos_8p0_asym)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  MP(pmos_8p0_asym)  SERIES S D [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  D(np_1p8)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(np_1p8_nat)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(pn_1p8)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(np_3p3)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(np_3p3_nat)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(pn_3p3)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(np_3p3_lvt)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(pn_3p3_lvt)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(dnwpw)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(nwp)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  D(dnwps)  PARALLEL [ TOLERANCE A 0 P 0 ]
+   LVS REDUCE  Q(vpnp_0p46x0p46)  PARALLEL
+   LVS REDUCE  Q(vpnp_0p46x1p2)  PARALLEL
+   LVS REDUCE  Q(vpnp_1p2x2p5)  PARALLEL
+   LVS REDUCE  Q(vpnp_5x5)  PARALLEL
+   LVS REDUCE  Q(vpnp_10x10)  PARALLEL
+   LVS REDUCE  Q(lpnp_1p8_0p54x0p54)  PARALLEL
+   LVS REDUCE  Q(lpnp_1p8_0p54x1p2)  PARALLEL
+   LVS REDUCE  Q(lpnp_1p8_1p2x2p5)  PARALLEL
+   LVS REDUCE  Q(lpnp_1p8_5x5)  PARALLEL
+   LVS REDUCE  Q(vnpn_2x2)  PARALLEL
+   LVS REDUCE  Q(vnpn_5x5)  PARALLEL
+   LVS REDUCE  R(nplus_s)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(nplus_s)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(pplus_s)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(pplus_s)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(nplus_u)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(nplus_u)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(pplus_u)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(pplus_u)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(npolyf_s)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(npolyf_s)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(ppolyf_s)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(ppolyf_s)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(npolyf_u)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(npolyf_u)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(ppolyf_u)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(ppolyf_u)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(nwell)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(nwell)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(npolyf_u_1k)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(npolyf_u_1k)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(ppolyf_u_1k)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(ppolyf_u_1k)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(ppolyf_u_2k)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(ppolyf_u_2k)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm1)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm1)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm2)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm2)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm3)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm3)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm4)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm4)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm5)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(rm5)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(tm25k)  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  R(tm25k)  SERIES POS NEG [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  C(mim_1p5)  PARALLEL [ TOLERANCE mim_length 0 mim_width 0 ]
+   LVS REDUCE  C(mim_3p0)  PARALLEL [ TOLERANCE mim_length 0 mim_width 0 ]
+   LVS REDUCE  nmosvar_1p8  PARALLEL [ TOLERANCE f 0 lfinger 0 wfinger 0 ]
+   LVS REDUCE  nmosvar_3p3  PARALLEL [ TOLERANCE f 0 lfinger 0 wfinger 0 ]
+   LVS REDUCE  pnvar_1p8  PARALLEL [ TOLERANCE f 0 lfinger 0 wfinger 0 ]
+   LVS REDUCE  RFNMOS_1P8  PARALLEL [ TOLERANCE lx 0 wx 0 nfx 0 mx 0 ]
+   LVS REDUCE  RFPMOS_1P8  PARALLEL [ TOLERANCE lx 0 wx 0 nfx 0 mx 0 ]
+   LVS REDUCE  RFNMOS_3P3  PARALLEL [ TOLERANCE lx 0 wx 0 nfx 0 mx 0 ]
+   LVS REDUCE  RFPMOS_3P3  PARALLEL [ TOLERANCE lx 0 wx 0 nfx 0 mx 0 ]
+   LVS REDUCE  NMOSVAR_1p8V_rf  PARALLEL [ TOLERANCE f 0 lfinger 0 wfinger 0 ]
+   LVS REDUCE  NMOSVAR_3p3V_rf  PARALLEL [ TOLERANCE f 0 lfinger 0 wfinger 0 ]
+   LVS REDUCE  PNVAR_1p8V_rf  PARALLEL [ TOLERANCE f 0 lfinger 0 wfinger 0 ]
+   LVS REDUCE  PNVAR_3p3V_rf  PARALLEL [ TOLERANCE f 0 lfinger 0 wfinger 0 ]
+   LVS REDUCE  dnw  PARALLEL [ TOLERANCE pw_area 0 nb_area 0 ]
+   LVS REDUCE  dnw_p  PARALLEL [ TOLERANCE pw_area 0 nb_area 0 ]
+   LVS REDUCE  ch018ic6LM_Ind_Ct  PARALLEL NO
+   LVS REDUCE  ch018ic6LM_Ind_Spi  PARALLEL NO
+   LVS REDUCE  ch018ic6LM_Ind_Sym  PARALLEL NO
+   LVS REDUCE  L018IC_C100W12N1P5  PARALLEL NO
+   LVS REDUCE  MIM_018IC_1p5  PARALLEL [ TOLERANCE mim_length 0 mim_width 0 lm_scheme 0 ]
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Filter
+
+   LVS FILTER  D(dnwpw_p)  OPEN LAYOUT
+   LVS FILTER  D(dvnwpw_p)  OPEN LAYOUT
+   LVS FILTER  D(dvnwps_p)  OPEN LAYOUT
+   LVS FILTER  D(dnwps_p)  OPEN LAYOUT
+   LVS FILTER  D(nwp_p)  OPEN LAYOUT
+   LVS FILTER  D(dnwps_24p0_p)  OPEN LAYOUT
+   LVS FILTER  dnw_p  OPEN LAYOUT
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_1p8)  m m 0
+   TRACE PROPERTY  mn(nmos_1p8)  l l 0
+   TRACE PROPERTY  mn(nmos_1p8)  w w 0
+   TRACE PROPERTY  mn(nmos_1p8_nat)  m m 0
+   TRACE PROPERTY  mn(nmos_1p8_nat)  l l 0
+   TRACE PROPERTY  mn(nmos_1p8_nat)  w w 0
+   TRACE PROPERTY  mp(pmos_1p8)  m m 0
+   TRACE PROPERTY  mp(pmos_1p8)  l l 0
+   TRACE PROPERTY  mp(pmos_1p8)  w w 0
+   TRACE PROPERTY  mn(nmos_3p3)  m m 0
+   TRACE PROPERTY  mn(nmos_3p3)  nf nf 0
+   TRACE PROPERTY  mn(nmos_3p3)  l l 0
+   TRACE PROPERTY  mn(nmos_3p3)  w w 0
+   TRACE PROPERTY  mn(nmos_3p3_nat)  m m 0
+   TRACE PROPERTY  mn(nmos_3p3_nat)  l l 0
+   TRACE PROPERTY  mn(nmos_3p3_nat)  w w 0
+   TRACE PROPERTY  mp(pmos_3p3)  m m 0
+   TRACE PROPERTY  mp(pmos_3p3)  nf nf 0
+   TRACE PROPERTY  mp(pmos_3p3)  l l 0
+   TRACE PROPERTY  mp(pmos_3p3)  w w 0
+   TRACE PROPERTY  mn(nmos_3p3_lvt)  m m 0
+   TRACE PROPERTY  mn(nmos_3p3_lvt)  l l 0
+   TRACE PROPERTY  mn(nmos_3p3_lvt)  w w 0
+   TRACE PROPERTY  mp(pmos_3p3_lvt)  m m 0
+   TRACE PROPERTY  mp(pmos_3p3_lvt)  l l 0
+   TRACE PROPERTY  mp(pmos_3p3_lvt)  w w 0
+   TRACE PROPERTY  mn(nmos_8p0_asym)  m m 0
+   TRACE PROPERTY  mn(nmos_8p0_asym)  l l 0
+   TRACE PROPERTY  mn(nmos_8p0_asym)  w w 0
+   TRACE PROPERTY  mp(pmos_8p0_asym)  m m 0
+   TRACE PROPERTY  mp(pmos_8p0_asym)  l l 0
+   TRACE PROPERTY  mp(pmos_8p0_asym)  w w 0
+   TRACE PROPERTY  d(np_1p8)  m m 0
+   TRACE PROPERTY  d(np_1p8)  a a 0
+   TRACE PROPERTY  d(np_1p8)  p p 0
+   TRACE PROPERTY  d(np_1p8_nat)  m m 0
+   TRACE PROPERTY  d(np_1p8_nat)  a a 0
+   TRACE PROPERTY  d(np_1p8_nat)  p p 0
+   TRACE PROPERTY  d(pn_1p8)  m m 0
+   TRACE PROPERTY  d(pn_1p8)  a a 0
+   TRACE PROPERTY  d(pn_1p8)  p p 0
+   TRACE PROPERTY  d(np_3p3)  m m 0
+   TRACE PROPERTY  d(np_3p3)  a a 0
+   TRACE PROPERTY  d(np_3p3)  p p 0
+   TRACE PROPERTY  d(np_3p3_nat)  m m 0
+   TRACE PROPERTY  d(np_3p3_nat)  a a 0
+   TRACE PROPERTY  d(np_3p3_nat)  p p 0
+   TRACE PROPERTY  d(pn_3p3)  m m 0
+   TRACE PROPERTY  d(pn_3p3)  a a 0
+   TRACE PROPERTY  d(pn_3p3)  p p 0
+   TRACE PROPERTY  d(np_3p3_lvt)  m m 0
+   TRACE PROPERTY  d(np_3p3_lvt)  a a 0
+   TRACE PROPERTY  d(np_3p3_lvt)  p p 0
+   TRACE PROPERTY  d(pn_3p3_lvt)  m m 0
+   TRACE PROPERTY  d(pn_3p3_lvt)  a a 0
+   TRACE PROPERTY  d(pn_3p3_lvt)  p p 0
+   TRACE PROPERTY  d(dnwpw)  m m 0
+   TRACE PROPERTY  d(dnwpw)  a a 0
+   TRACE PROPERTY  d(dnwpw)  p p 0
+   TRACE PROPERTY  d(nwp)  m m 0
+   TRACE PROPERTY  d(nwp)  a a 0
+   TRACE PROPERTY  d(nwp)  p p 0
+   TRACE PROPERTY  d(dnwps)  m m 0
+   TRACE PROPERTY  d(dnwps)  a a 0
+   TRACE PROPERTY  d(dnwps)  p p 0
+   TRACE PROPERTY  q(vpnp_0p46x0p46)  m m 0
+   TRACE PROPERTY  q(vpnp_0p46x1p2)  m m 0
+   TRACE PROPERTY  q(vpnp_1p2x2p5)  m m 0
+   TRACE PROPERTY  q(vpnp_5x5)  m m 0
+   TRACE PROPERTY  q(vpnp_10x10)  m m 0
+   TRACE PROPERTY  q(lpnp_1p8_0p54x0p54)  m m 0
+   TRACE PROPERTY  q(lpnp_1p8_0p54x1p2)  m m 0
+   TRACE PROPERTY  q(lpnp_1p8_1p2x2p5)  m m 0
+   TRACE PROPERTY  q(lpnp_1p8_5x5)  m m 0
+   TRACE PROPERTY  q(vnpn_5x5)  m m 0
+   TRACE PROPERTY  q(vnpn_2x2)  m m 0
+   TRACE PROPERTY  r(nplus_s)  m m 0
+   TRACE PROPERTY  r(nplus_s)  l l 0
+   TRACE PROPERTY  r(nplus_s)  w w 0
+   TRACE PROPERTY  r(pplus_s)  m m 0
+   TRACE PROPERTY  r(pplus_s)  l l 0
+   TRACE PROPERTY  r(pplus_s)  w w 0
+   TRACE PROPERTY  r(nplus_u)  m m 0
+   TRACE PROPERTY  r(nplus_u)  l l 0
+   TRACE PROPERTY  r(nplus_u)  w w 0
+   TRACE PROPERTY  r(pplus_u)  m m 0
+   TRACE PROPERTY  r(pplus_u)  l l 0
+   TRACE PROPERTY  r(pplus_u)  w w 0
+   TRACE PROPERTY  r(npolyf_s)  m m 0
+   TRACE PROPERTY  r(npolyf_s)  l l 0
+   TRACE PROPERTY  r(npolyf_s)  w w 0
+   TRACE PROPERTY  r(ppolyf_s)  m m 0
+   TRACE PROPERTY  r(ppolyf_s)  l l 0
+   TRACE PROPERTY  r(ppolyf_s)  w w 0
+   TRACE PROPERTY  r(npolyf_u)  m m 0
+   TRACE PROPERTY  r(npolyf_u)  l l 0
+   TRACE PROPERTY  r(npolyf_u)  w w 0
+   TRACE PROPERTY  r(ppolyf_u)  m m 0
+   TRACE PROPERTY  r(ppolyf_u)  l l 0
+   TRACE PROPERTY  r(ppolyf_u)  w w 0
+   TRACE PROPERTY  r(nwell)  m m 0
+   TRACE PROPERTY  r(nwell)  l l 0
+   TRACE PROPERTY  r(nwell)  w w 0
+   TRACE PROPERTY  r(npolyf_u_1k)  m m 0
+   TRACE PROPERTY  r(npolyf_u_1k)  l l 0
+   TRACE PROPERTY  r(npolyf_u_1k)  w w 0
+   TRACE PROPERTY  r(ppolyf_u_1k)  m m 0
+   TRACE PROPERTY  r(ppolyf_u_1k)  l l 0
+   TRACE PROPERTY  r(ppolyf_u_1k)  w w 0
+   TRACE PROPERTY  r(ppolyf_u_2k)  m m 0
+   TRACE PROPERTY  r(ppolyf_u_2k)  l l 0
+   TRACE PROPERTY  r(ppolyf_u_2k)  w w 0
+   TRACE PROPERTY  r(rm1)  m m 0
+   TRACE PROPERTY  r(rm1)  l l 0
+   TRACE PROPERTY  r(rm1)  w w 0
+   TRACE PROPERTY  r(rm2)  m m 0
+   TRACE PROPERTY  r(rm2)  l l 0
+   TRACE PROPERTY  r(rm2)  w w 0
+   TRACE PROPERTY  r(rm3)  m m 0
+   TRACE PROPERTY  r(rm3)  l l 0
+   TRACE PROPERTY  r(rm3)  w w 0
+   TRACE PROPERTY  r(rm4)  m m 0
+   TRACE PROPERTY  r(rm4)  l l 0
+   TRACE PROPERTY  r(rm4)  w w 0
+   TRACE PROPERTY  r(rm5)  m m 0
+   TRACE PROPERTY  r(rm5)  l l 0
+   TRACE PROPERTY  r(rm5)  w w 0
+   TRACE PROPERTY  r(tm25k)  m m 0
+   TRACE PROPERTY  r(tm25k)  l l 0
+   TRACE PROPERTY  r(tm25k)  w w 0
+   TRACE PROPERTY  c(mim_1p5)  m m 0
+   TRACE PROPERTY  c(mim_1p5)  mim_length mim_length 0
+   TRACE PROPERTY  c(mim_1p5)  mim_width mim_width 0
+   TRACE PROPERTY  c(mim_3p0)  m m 0
+   TRACE PROPERTY  c(mim_3p0)  mim_length mim_length 0
+   TRACE PROPERTY  c(mim_3p0)  mim_width mim_width 0
+   TRACE PROPERTY  nmosvar_1p8  mcell mcell 0
+   TRACE PROPERTY  nmosvar_1p8  f f 0
+   TRACE PROPERTY  nmosvar_1p8  lfinger lfinger 0
+   TRACE PROPERTY  nmosvar_1p8  wfinger wfinger 0
+   TRACE PROPERTY  nmosvar_3p3  mcell mcell 0
+   TRACE PROPERTY  nmosvar_3p3  f f 0
+   TRACE PROPERTY  nmosvar_3p3  lfinger lfinger 0
+   TRACE PROPERTY  nmosvar_3p3  wfinger wfinger 0
+   TRACE PROPERTY  pnvar_1p8  mcell mcell 0
+   TRACE PROPERTY  pnvar_1p8  f f 0
+   TRACE PROPERTY  pnvar_1p8  lfinger lfinger 0
+   TRACE PROPERTY  pnvar_1p8  wfinger wfinger 0
+   TRACE PROPERTY  rfnmos_1p8  lx lx 0
+   TRACE PROPERTY  rfnmos_1p8  nfx nfx 0
+   TRACE PROPERTY  rfnmos_1p8  wx wx 0
+   TRACE PROPERTY  rfnmos_1p8  mx mx 0
+   TRACE PROPERTY  rfpmos_1p8  lx lx 0
+   TRACE PROPERTY  rfpmos_1p8  nfx nfx 0
+   TRACE PROPERTY  rfpmos_1p8  wx wx 0
+   TRACE PROPERTY  rfpmos_1p8  mx mx 0
+   TRACE PROPERTY  rfnmos_3p3  lx lx 0
+   TRACE PROPERTY  rfnmos_3p3  nfx nfx 0
+   TRACE PROPERTY  rfnmos_3p3  wx wx 0
+   TRACE PROPERTY  rfnmos_3p3  mx mx 0
+   TRACE PROPERTY  rfpmos_3p3  lx lx 0
+   TRACE PROPERTY  rfpmos_3p3  nfx nfx 0
+   TRACE PROPERTY  rfpmos_3p3  wx wx 0
+   TRACE PROPERTY  rfpmos_3p3  mx mx 0
+   TRACE PROPERTY  nmosvar_1p8v_rf  lfinger lfinger 0
+   TRACE PROPERTY  nmosvar_1p8v_rf  wfinger wfinger 0
+   TRACE PROPERTY  nmosvar_1p8v_rf  f f 0
+   TRACE PROPERTY  nmosvar_1p8v_rf  mcell mcell 0
+   TRACE PROPERTY  nmosvar_3p3v_rf  lfinger lfinger 0
+   TRACE PROPERTY  nmosvar_3p3v_rf  wfinger wfinger 0
+   TRACE PROPERTY  nmosvar_3p3v_rf  f f 0
+   TRACE PROPERTY  nmosvar_3p3v_rf  mcell mcell 0
+   TRACE PROPERTY  pnvar_1p8v_rf  lfinger lfinger 0
+   TRACE PROPERTY  pnvar_1p8v_rf  wfinger wfinger 0
+   TRACE PROPERTY  pnvar_1p8v_rf  f f 0
+   TRACE PROPERTY  pnvar_1p8v_rf  mcell mcell 0
+   TRACE PROPERTY  pnvar_3p3v_rf  lfinger lfinger 0
+   TRACE PROPERTY  pnvar_3p3v_rf  wfinger wfinger 0
+   TRACE PROPERTY  pnvar_3p3v_rf  f f 0
+   TRACE PROPERTY  pnvar_3p3v_rf  mcell mcell 0
+   TRACE PROPERTY  dnw  pw_area pw_area 1
+   TRACE PROPERTY  dnw  pw_perim pw_perim 1
+   TRACE PROPERTY  dnw  nb_area nb_area 1
+   TRACE PROPERTY  dnw  nb_perim nb_perim 1
+   TRACE PROPERTY  ch018ic6lm_ind_ct  din din 0
+   TRACE PROPERTY  ch018ic6lm_ind_ct  n n 0
+   TRACE PROPERTY  ch018ic6lm_ind_ct  width width 0.2
+   TRACE PROPERTY  ch018ic6lm_ind_ct  turnsp turnsp 0
+   TRACE PROPERTY  ch018ic6lm_ind_ct  m m 0
+   TRACE PROPERTY  ch018ic6lm_ind_spi  din din 0
+   TRACE PROPERTY  ch018ic6lm_ind_spi  n n 0
+   TRACE PROPERTY  ch018ic6lm_ind_spi  width width 0.2
+   TRACE PROPERTY  ch018ic6lm_ind_spi  turnsp turnsp 0
+   TRACE PROPERTY  ch018ic6lm_ind_spi  m m 0
+   TRACE PROPERTY  ch018ic6lm_ind_sym  din din 0
+   TRACE PROPERTY  ch018ic6lm_ind_sym  n n 0
+   TRACE PROPERTY  ch018ic6lm_ind_sym  width width 0.2
+   TRACE PROPERTY  ch018ic6lm_ind_sym  turnsp turnsp 0
+   TRACE PROPERTY  ch018ic6lm_ind_sym  m m 0
+   TRACE PROPERTY  l018ic_stacked_xformer  din din 1
+   TRACE PROPERTY  l018ic_stacked_xformer  n n 1
+   TRACE PROPERTY  l018ic_stacked_xformer  w w 1
+   TRACE PROPERTY  l018ic_stacked_xformer  m m 0
+   TRACE PROPERTY  l018ic_c100w12n1p5  m m 0
+   TRACE PROPERTY  mim_018ic_1p5  m m 0
+   TRACE PROPERTY  mim_018ic_1p5  mim_length mim_length 0
+   TRACE PROPERTY  mim_018ic_1p5  mim_width mim_width 0
+   TRACE PROPERTY  mim_018ic_1p5  lm_scheme lm_scheme 0
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         Lab_3_inverter
+SOURCE CELL NAME:         Lab_3_inverter
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              4         4
+
+ Nets:               4         4
+
+ Instances:          1         1         MN (4 pins)
+                     3         3         MP (4 pins)
+                     1         0    *    D (2 pins)
+                ------    ------
+ Total Inst:         5         4
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              4         4
+
+ Nets:               4         4
+
+ Instances:          1         1         INV (2 pins)
+                ------    ------
+ Total Inst:         1         1
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               4          4            0            0
+
+   Nets:                4          4            0            0
+
+   Instances:           1          1            0            0    INV
+                  -------    -------    ---------    ---------
+   Total Inst:          1          1            0            0
+
+
+o Statistics:
+
+   1 layout instance was filtered and its pins removed from adjoining nets.
+
+   3 layout mos transistors were reduced to 1.
+     2 mos transistors were deleted by parallel reduction.
+   3 source mos transistors were reduced to 1.
+     2 mos transistors were deleted by parallel reduction.
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD GND VOUT VIN
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      1 sec
+Total Elapsed Time:  1 sec

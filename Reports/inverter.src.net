@@ -1,0 +1,30 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Analog_Lab
+* Top Cell Name: Lab_3_inverter
+* View Name:     schematic
+* Netlisted on:  Jan  9 11:01:29 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Analog_Lab
+* Cell Name:    Lab_3_inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Lab_3_inverter GND VDD VIN VOUT
+*.PININFO VIN:I VOUT:O GND:B VDD:B
+MMN0 VOUT VIN GND GND nmos_1p8 W=460e-9 L=180n m=1.0 as=220.8e-15 ad=220.8e-15 
++ ps=1.88e-6 pd=1.88e-6 nrd=1.043478 nrs=1.043478 par=1 dtemp=0
+MMP0 VOUT VIN VDD VDD pmos_1p8 W=460e-9 L=180n m=3.0 as=156.4e-15 ad=156.4e-15 
++ ps=1.29333e-6 pd=1.29333e-6 nrd=0.739130 nrs=0.739130 par=3 dtemp=0
+.ENDS
+

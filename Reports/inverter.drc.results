@@ -1,0 +1,153 @@
+Lab_3_inverter 1000
+M1.3
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Minimum metal1 area = 0.1444 sq. um
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+635 2340
+975 2340
+975 2720
+635 2720
+PL.8
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Poly2 Density check should be > 14%
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+G_PL.8a
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Poly2 Minimum Density (%) with 125um by 125um tiling >= 15%
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+MD1.4
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Metal1 Density check 
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+MD2.4
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Metal2 Density check 
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+MD3.4
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Metal3 Density check 
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+MD4.4
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Metal4 Density check
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+MD5.4
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Metal5 Density check 
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+MD6.4
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Top Metal6 Density check 
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+GR.TOPO.No_GR_Mk
+1 1 4 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+FOUNDRY_INSERT_GUARD_RING is not selected.
+Customer guardring selected & GUARD_RING_MK is required. 
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+DCF.14
+1 1 3 Jan  9 10:53:03 2024                     
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_drc_header_30_58_
+Rule File Title: This program invokes GLOBALFOUNDRIES' DRC for 0.18um technology. In using this runset, you have agreed to abide by the terms specified in the DISCLAIMER section of the yi093dr001_Disclaimer.cal. Compiled on 20170612_111823_30_58
+Minimum global density for active layers (COMP+ Dummy COMP) = 25%
+p 1 4
+CN Lab_3_inverter c 1 0 0 1 0 0 0
+0 0
+5040 0
+5040 5240
+0 5240
+DENSITY_RDBS
+0 0 2 Jan  9 10:53:03 2024
+p2_minLocalDen.rdb 1
+p2_maxLocalDen.rdb 0
+DENSITY_PRINT_FILES
+0 0 9 Jan  9 10:53:03 2024
+p2_den.txt
+p2_8a_8b_den.txt
+m1_den.txt
+m2_den.txt
+m3_den.txt
+m4_den.txt
+m5_den.txt
+m6_den.txt
+COMP_den.txt
+NET_AREA_RATIO_PRINT_FILES
+0 0 13 Jan  9 10:53:03 2024
+ANTP2.txt
+ANTCO.txt
+PANTM1.txt
+ANTV1.txt
+PANTM2.txt
+ANTV2.txt
+PANTM3.txt
+ANTV3.txt
+PANTM4.txt
+ANTV4.txt
+PANTM5.txt
+ANTV5.txt
+PANTM6.txt

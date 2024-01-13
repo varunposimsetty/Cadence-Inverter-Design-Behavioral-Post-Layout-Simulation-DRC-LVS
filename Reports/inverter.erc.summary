@@ -1,0 +1,124 @@
+
+
+==================================================================================
+=== CALIBRE::ERC-H SUMMARY REPORT
+===
+Execution Date/Time:          Tue Jan  9 11:01:31 2024
+Calibre Version:              v2013.3_19.14    Thu Aug 15 13:51:23 PDT 2013
+Rule File Pathname:           /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title:              Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+Layout System:                GDSII
+Layout Path(s):               Lab_3_inverter.calibre.db
+Layout Primary Cell:          Lab_3_inverter
+Current Directory:            /home1/msc18y23/CSM018IC_rev14
+User Name:                    msc18y23
+Maximum Results/ERC Check:    1000
+Maximum ERC Result Vertices:  4096
+ERC Results Database:         Lab_3_inverter.erc.results (ASCII)
+ERC PATHCHK Results Database: svdb/Lab_3_inverter.pathchk.erc
+ERC PATHCHK Report:           svdb/Lab_3_inverter.pathchk.rep
+Layout Depth:                 ALL
+Text Depth:                   PRIMARY
+Summary Report File:          Lab_3_inverter.erc.summary (REPLACE)
+Geometry Flagging:            ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                              NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:              
+CheckText Mapping:            COMMENT TEXT + RULE FILE INFORMATION
+Layers:                       MEMORY-BASED
+Keep Empty Checks:            YES
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+FLATTEN CELL L018IC_C100W12N1P5 not located or not allowed.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER DNWELL ........... TOTAL Original Geometry Count = 0  (0)
+LAYER Nwell ............ TOTAL Original Geometry Count = 3  (3)
+LAYER Poly2 ............ TOTAL Original Geometry Count = 17 (17)
+LAYER Nplus ............ TOTAL Original Geometry Count = 2  (2)
+LAYER COMP ............. TOTAL Original Geometry Count = 10 (10)
+LAYER SAB .............. TOTAL Original Geometry Count = 0  (0)
+LAYER RES_MK ........... TOTAL Original Geometry Count = 0  (0)
+LAYER Pplus ............ TOTAL Original Geometry Count = 2  (2)
+LAYER Dualgate ......... TOTAL Original Geometry Count = 0  (0)
+LAYER LVS_DRAIN ........ TOTAL Original Geometry Count = 0  (0)
+LAYER LVS_RF ........... TOTAL Original Geometry Count = 0  (0)
+LAYER Resistor ......... TOTAL Original Geometry Count = 0  (0)
+LAYER RES_MK_TYPE1 ..... TOTAL Original Geometry Count = 0  (0)
+LAYER HVPDDD ........... TOTAL Original Geometry Count = 0  (0)
+LAYER DVNWELL .......... TOTAL Original Geometry Count = 0  (0)
+LAYER DIODE_MK ......... TOTAL Original Geometry Count = 0  (0)
+LAYER LVS_BJT .......... TOTAL Original Geometry Count = 0  (0)
+LAYER IND_MK ........... TOTAL Original Geometry Count = 0  (0)
+LAYER NAT .............. TOTAL Original Geometry Count = 0  (0)
+LAYER LVT .............. TOTAL Original Geometry Count = 0  (0)
+LAYER CAP_MK ........... TOTAL Original Geometry Count = 0  (0)
+LAYER LVS_PSUB2 ........ TOTAL Original Geometry Count = 0  (0)
+LAYER HVNDDD ........... TOTAL Original Geometry Count = 0  (0)
+LAYER SCHOTTKY_DIODE ... TOTAL Original Geometry Count = 0  (0)
+LAYER LDMOS_XTOR ....... TOTAL Original Geometry Count = 0  (0)
+LAYER LVLDNSD .......... TOTAL Original Geometry Count = 0  (0)
+LAYER ESD .............. TOTAL Original Geometry Count = 0  (0)
+LAYER 8V_MK ............ TOTAL Original Geometry Count = 0  (0)
+LAYER Contact .......... TOTAL Original Geometry Count = 9  (9)
+LAYER SramCore ......... TOTAL Original Geometry Count = 0  (0)
+LAYER LVLDPSD .......... TOTAL Original Geometry Count = 0  (0)
+LAYER WELL_DIODE_MK .... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal1_RES_MK .... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal1 ........... TOTAL Original Geometry Count = 35 (35)
+LAYER Via1 ............. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal2_RES_MK .... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal2 ........... TOTAL Original Geometry Count = 0  (0)
+LAYER Via2 ............. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal3_RES_MK .... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal3 ........... TOTAL Original Geometry Count = 0  (0)
+LAYER Via3 ............. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal4_RES_MK .... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal4 ........... TOTAL Original Geometry Count = 0  (0)
+LAYER Via4 ............. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal5_RES_MK .... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal5 ........... TOTAL Original Geometry Count = 0  (0)
+LAYER Via5 ............. TOTAL Original Geometry Count = 0  (0)
+LAYER Metal6_RES_MK .... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal6 ........... TOTAL Original Geometry Count = 0  (0)
+LAYER FuseTop2 ......... TOTAL Original Geometry Count = 0  (0)
+LAYER FuseTop .......... TOTAL Original Geometry Count = 0  (0)
+LAYER MCELL_FEOL_MK .... TOTAL Original Geometry Count = 0  (0)
+LAYER Pad .............. TOTAL Original Geometry Count = 0  (0)
+LAYER MIM_L_MK ......... TOTAL Original Geometry Count = 0  (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK RES.1 .......... TOTAL Result Count = 0 (0)
+RULECHECK NTAP.1 ......... TOTAL Result Count = 0 (0)
+RULECHECK NTAP.2 ......... TOTAL Result Count = 0 (0)
+RULECHECK PTAP.1 ......... TOTAL Result Count = 0 (0)
+RULECHECK PTAP.2 ......... TOTAL Result Count = 0 (0)
+RULECHECK NGATE.1 ........ TOTAL Result Count = 0 (0)
+RULECHECK PGATE.1 ........ TOTAL Result Count = 0 (0)
+RULECHECK RF_NGATE.1 ..... TOTAL Result Count = 0 (0)
+RULECHECK RF_PGATE.1 ..... TOTAL Result Count = 0 (0)
+RULECHECK Floating_NW .... TOTAL Result Count = 0 (0)
+RULECHECK Floating_PW .... TOTAL Result Count = 0 (0)
+RULECHECK Floating_sub ... TOTAL Result Count = 0 (0)
+RULECHECK Floating_PC .... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- ERC RULECHECK RESULTS STATISTICS (BY CELL)
+---
+----------------------------------------------------------------------------------
+--- ERC PATHCHK RESULTS STATISTICS
+---
+  PATHCHK GROUND && ! POWER:
+  PATHCHK POWER && ! GROUND:
+  PATHCHK ! POWER && ! GROUND:
+  PATHCHK ! LABELED:
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                              1
+TOTAL REAL Time:                             1
+TOTAL Original Layer Geometries:             78 (78)
+TOTAL ERC RuleChecks Executed:               13
+TOTAL ERC RuleCheck Results Generated:       0 (0)
+TOTAL ERC PATHCHK Operations Executed:       4

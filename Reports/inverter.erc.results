@@ -1,0 +1,71 @@
+Lab_3_inverter 1000
+RES.1
+0 0 8 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+*
+*                        ERROR MESSAGES !!!
+*
+*********************************************************************
+* Contact / Via is NOT ALLOWED to be drawn on the resistor body area.
+*********************************************************************
+NTAP.1
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+ntap with a path to ground
+NTAP.2
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+ntap with no path to power
+PTAP.1
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+ptap with a path to power
+PTAP.2
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+ptap with no path to ground
+NGATE.1
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+ngate S/D connect to power & ground
+PGATE.1
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+pgate S/D connect to power & ground
+RF_NGATE.1
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+rf_ngate S/D connect to power & ground
+RF_PGATE.1
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+rf_pgate S/D connect to power & ground
+Floating_NW
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+NWELLS must connect to POWER net
+Floating_PW
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+PWELLS must connect to GROUND net
+Floating_sub
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+Substate regions must connect to GROUND net
+Floating_PC
+0 0 3 Jan  9 11:01:32 2024                                                      
+Rule File Pathname: /home1/msc18y23/CSM018IC_rev14/_cmos018ic.dgo.lvs.cal_
+Rule File Title: Mentor Calibre LVS Runset for GLOBAL FOUNDRIES 0.18um IC Dual Voltage Process
+POLY must have contact and metal
